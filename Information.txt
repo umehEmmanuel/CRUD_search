@@ -1,0 +1,21 @@
+findOne mean  retrieves a single document that matches the specified condition from a mongodb collection. 
+
+it a conveninet way to search for a single document that meet the specified conditions. 
+
+it return a query object if no callback is provided.
+
+it is used for task such as authentication, retrieving a specified record or checking 
+the extistence of a document.
+
+
+status code: this is a three digit numerical that is returned by the 
+server in response to a client request.
+
+Examples: 
+200 ok
+201 created
+400 bad request
+401 unauthorized request
+500 server error
+403 forbidden
+303 redirecting
